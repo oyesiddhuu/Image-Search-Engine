@@ -1,0 +1,300 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px; 
+    background-color: lightgrey; 
+    background-image: url("bg.jpg");
+}
+
+.BiggerDIV{
+    padding: 50px;
+    border-radius: 20px;
+    background-color: blue;
+    background-image: url("Div.png");
+    box-shadow: 0 0 30px; 
+}
+
+
+.Reg_container{
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: black;  
+    background-image: url("Photo.jpg");
+    box-shadow: 0 0 30px;    
+}  
+
+#username{
+    margin-bottom: 15px;
+    padding-right: 100px;
+    border-radius: 5px;
+    height: 30px;    
+}
+#email{
+    margin-bottom: 15px;
+    padding-right: 100px;
+    border-radius: 5px;
+    height: 30px;
+}
+#password{
+    margin-bottom: 15px;
+    padding-right: 100px;
+    border-radius: 5px;
+    height: 30px;
+}
+#password1{
+    margin-bottom: 15px;
+    padding-right: 100px;
+    border-radius: 5px;
+    height: 30px;    
+}
+#checkbox{
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+button{
+    margin-bottom: 15px;
+    background-color: blue;
+    color: #ffffff;
+    padding: 10px 10px 10px 10px;    
+    cursor: pointer;
+    text-align: center;    
+}
+
+button:hover{
+    padding: 10px 90px 10px 90px;
+    transition: 1s;
+    background-color: rgb(5, 5, 112);
+}
+
+a{
+    color: blue;
+    cursor: pointer;
+    text-decoration: none;    
+}
+
+
+input.group2{
+    display: flex;
+    flex-direction: row;
+}
+
+@media (max-width : 450px){
+    .BiggerDIV{
+        width: 300px;
+    }    
+}
+@media (max-width : 415px){
+    .BiggerDIV{
+        width: 250px;
+    }
+    .Reg_container{
+        width: 215px;
+    }
+    #username{
+        width: 90px;
+    }
+    #email{
+        width: 90px;
+    }
+    #password{
+        width: 90px;
+    }
+    #password1{
+        width: 90px;
+    }
+}
+
+@media (max-width : 365px){
+    .BiggerDIV{
+        width: 240px;
+        padding : 20px 20px 20px 20px;
+    }
+    .Reg_container{
+        width: 200px;
+        height: 400px;
+        
+    }
+}
+
+@media (max-width : 300px){
+    .BiggerDIV{
+        width: 200px;
+        height: 400px;
+    }
+    .Reg_container{
+        width: 160px;
+        height: 360px;
+        font-size: small;
+        padding-top: 1px;
+    }
+    #username{
+        width: 55px;
+        height: 22px;
+    
+    }
+    #email{
+        width: 55px;
+        height: 22px;
+        }
+    #password{
+        width: 55px;
+        height: 22px;
+    }
+    #password1{
+        width: 55px;
+        height: 22px;
+    }   
+    
+    @media (max-width : 250px){
+        .BiggerDIV{
+            width: 150px;
+            height: 320px;
+        }
+        
+        .Reg_container{
+            width: 120px;
+            height: 300px;
+            font-size: x-small;
+            padding-top: 1px;
+            padding-left: 10px;
+        }
+        .inputgroup2{
+            font-size: 1px;
+        }
+        .inputgroup3{
+            font-size: 0px;
+            padding-top: 1px;
+        }
+        #username{
+            width: 20px;
+            height: 18px;            
+        }
+        #email{
+            width: 20px;
+            height: 18px;
+            }
+        #password{
+            width: 20px;
+            height: 18px;
+        }
+        #password1{
+            width: 20px;
+            height: 18px;
+        }  
+        button{
+            padding : 5px 5px 5px 5px;
+            margin-bottom: 5px;
+            margin-top: 5px;
+        }     
+    
+    }
+    
+    @media (max-width : 200px){
+        .BiggerDIV{
+            width: 120px;
+            height: 300px;
+        }
+        
+        .Reg_container{
+            width: 95px;
+            height: 280px;
+            font-size: xx-small;
+            padding-top: 1px;
+            padding-left: 5px;
+        }
+        .inputgroup2{
+            font-size: 1px;
+        }
+        .inputgroup3{
+            font-size: 0px;
+            padding-top: 1px;
+        }
+        #username{
+            width: 7px;
+            height: 12px;            
+        }
+        #email{
+            width: 7px;
+            height: 12px; 
+            }
+        #password{
+            width: 7px;
+            height: 12px; 
+        }
+        #password1{
+            width: 7px;
+            height: 12px; 
+            margin-bottom: 2px;
+        }  
+        button{
+            padding : 2px 2px 2px 2px;
+            margin-bottom: 5px;
+            margin-top: 5px;
+            font-size: x-small;
+        }     
+    
+    }
+    
+    @media (max-width : 160px){
+        .BiggerDIV{
+            width: 90px;
+            height: 280px;
+            padding-left: 10px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+        
+        .Reg_container{
+            width: 80px;
+            height: 260px;
+            font-size: xx-small;
+            padding-top: 1px;
+            padding-left: 5px;
+        }
+        .inputgroup2{
+            font-size: 1px;
+        }
+        .inputgroup3{
+            font-size: 0px;
+            padding-top: 1px;
+        }
+        #username{
+            width: 0px;
+            height: 10px; 
+            padding-left: 0px;  
+            margin-left: 0px;   
+            margin-top: 0px;      
+        }
+        #email{
+            width: 0px;
+            height: 10px; 
+            padding-left: 0px;  
+            margin-left: 0px; 
+            }
+        #password{
+            width: 0px;
+            height: 10px; 
+            padding-left: 0px;  
+            margin-left: 0px;
+        }
+        #password1{
+            width: 0px;
+            height: 10px; 
+            padding-left: 0px;  
+            margin-left: 0px;
+            margin-bottom: 0px;
+        }  
+        button{
+            padding : 2px 2px 2px 2px;
+            margin-bottom: 5px;
+            margin-top: 5px;
+            font-size: x-small;
+        }     
+    
+    }
+}
