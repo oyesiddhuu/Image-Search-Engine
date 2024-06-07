@@ -1,4 +1,4 @@
-This is a project based on mainly a image Search Engine, where when we enter the input and for that input the server API responds with the Images from the website Unsplash.com. 
+This is a project based on mainly an Image Search Engine, where when we enter the input and for that input the server API responds with the Images from the website Unsplash.com. 
 However additionally we created:-
    1. One Registration Page
    2. One Login page
